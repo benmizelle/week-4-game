@@ -3,7 +3,7 @@ body{
 }
 
 header{
-	color: #CC6600;
+	color: #99A3A4;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 75px;
 	text-align: left;
@@ -11,11 +11,18 @@ header{
 }
 
 h1{
-	color: #CC6600;
+	color: #99A3A4;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 25px;
 	text-align: left;
 	margin-left: 25px;
+}
+
+p{
+	text-align: center;
+	color: #99A3A4;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 25px;
 }
 
 button{
@@ -24,7 +31,7 @@ button{
 
 .img-circle{
 	border: solid;
-	border-color: #ffffff;
+	border-color: #99A3A4;
 	height: 170px; 
     width: 170px; 
     max-width: 250px; 
