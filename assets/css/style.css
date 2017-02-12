@@ -30,6 +30,7 @@ button{
 }
 
 .img-circle{
+	background-color: #99A3A4;
 	border: solid;
 	border-color: #99A3A4;
 	height: 170px; 
@@ -37,7 +38,7 @@ button{
     max-width: 250px; 
     max-height: 250px;
     margin: 10px;
-    padding: 10px;
+    padding: 0;
 }
 
 #nord{
@@ -68,5 +69,6 @@ button{
 	position: relative;
 	margin: 15px;
 	padding: 15px;
-	margin-top: 25%;
+	margin-top: 15%;
 }
+
