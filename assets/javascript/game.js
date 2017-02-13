@@ -7,9 +7,29 @@ var khajit = 0;
 var orc = 0;
 
    $(".img-circle").hover(function() {
-    $(this).animate({'height':'200px', 'width':'200px'});
+    $(this).animate({'height':'170px', 'width':'170px'});
 
 // close hover function
 });
+ $(".img-circle").click(function(){
+    alert("image is clicked");
+// close img-circle function
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // close document ready function
 });
