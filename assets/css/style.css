@@ -41,6 +41,11 @@ button{
     padding: 0;
 }
 
+.battlefield-left{
+	float: left;
+	position: relative;
+}
+
 #nord{
 	float: left;
 }
