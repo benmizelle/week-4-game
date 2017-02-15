@@ -41,39 +41,38 @@ button{
     padding: 0;
 }
 
-.battlefield-left{
-	float: left;
-	position: relative;
-}
-
 #nord{
 	float: left;
+	margin: 15px;
 }
 
 #high-elf{
 	clear: all;
 	float: left;
 	position: relative;
+	margin: 15px;
 }
 
 #khajit{
 	clear: all;
 	float: left;
 	position: relative;
+	margin: 15px;
 }
 
 #orc{
 	clear: all;
 	float: left;
 	position: relative;
+	margin: 15px;
 }
 
 .container{
+	width:100%;
 	clear: all;
-	float: left;
 	position: relative;
 	margin: 15px;
 	padding: 15px;
-	margin-top: 15%;
+	margin-top: 35%;
 }
 
