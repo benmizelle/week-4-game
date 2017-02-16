@@ -18,6 +18,22 @@ h1{
 	margin-left: 25px;
 }
 
+h3{
+	text-align: left;
+	color: #99A3A4;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+h2{
+	text-align: left;
+	color: #99A3A4;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 25px;
+	margin-left: 25px;
+}
+
 p{
 	text-align: center;
 	color: #99A3A4;
