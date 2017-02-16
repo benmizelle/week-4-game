@@ -180,7 +180,7 @@ $(function() { /*According to jQuery's API, this is preferred now.*/
 	if(fighters[npc].hp<=0){
 		wins++;
 		if (npcIndex.length===2) {
-			$("#messages").html("You beat the game!");
+			$("#messages").html("Congratulations! You've become Draagonborne! Sky Above, Voice Within.");
 			$("#won").html("Wins: " + wins);
 		}
 
