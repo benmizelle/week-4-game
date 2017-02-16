@@ -1,9 +1,10 @@
 body{
 	background-image: url("../images/background.JPG");
+	background-repeat: no-repeat;
 }
 
 header{
-	color: #99A3A4;
+	color: #b8860b;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 75px;
 	text-align: left;
@@ -11,24 +12,32 @@ header{
 }
 
 h1{
-	color: #99A3A4;
+	color: #b8860b;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 25px;
 	text-align: left;
-	margin-left: 25px;
-}
-
-h3{
-	text-align: left;
-	color: #99A3A4;
-	font-family: 'Uncial Antiqua', cursive;
-	font-size: 25px;
 	margin-left: 25px;
 }
 
 h2{
 	text-align: left;
-	color: #99A3A4;
+	color: #b8860b;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+h3{
+	text-align: left;
+	color: #b8860b;
+	font-family: 'Uncial Antiqua', cursive;
+	font-size: 25px;
+	margin-left: 25px;
+}
+
+h4{
+	text-align: left;
+	color: #b8860b;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 25px;
 	margin-left: 25px;
@@ -36,7 +45,7 @@ h2{
 
 p{
 	text-align: center;
-	color: #99A3A4;
+	color: #b8860b;
 	font-family: 'Uncial Antiqua', cursive;
 	font-size: 25px;
 }
@@ -56,39 +65,3 @@ button{
     margin: 10px;
     padding: 0;
 }
-
-#nord{
-	float: left;
-	margin: 15px;
-}
-
-#high-elf{
-	clear: all;
-	float: left;
-	position: relative;
-	margin: 15px;
-}
-
-#khajit{
-	clear: all;
-	float: left;
-	position: relative;
-	margin: 15px;
-}
-
-#orc{
-	clear: all;
-	float: left;
-	position: relative;
-	margin: 15px;
-}
-
-.container{
-	width:100%;
-	clear: all;
-	position: relative;
-	margin: 15px;
-	padding: 15px;
-	margin-top: 35%;
-}
-

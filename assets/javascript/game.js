@@ -86,7 +86,7 @@ function options(){
 		fullName[i].append(fighters[i].name);
 		
 		
-		var pic = $("<img src='assets/images/" + fighters[i].id + ".jpg' class = 'img-responsive' height = '170' width = '170'>");
+		var pic = $("<img src='assets/images/" + fighters[i].id + ".jpg' class = 'img-circle' height = '170px' width = '170px'>");
 		fighterDiv.append(pic);
 
 		var healthPoints = $("<h4>");
