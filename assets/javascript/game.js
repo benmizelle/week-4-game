@@ -108,10 +108,10 @@ function replay(){
 	khajit.reset();
 	orc.reset();
 	$("#clean").html("<div class = 'row center-block' id = 'choose'></div>");
-	$("#clean-up").html("<div class = 'col-xs-12' id ='player'></div>");
+	$("#clean-up").html("<div class = 'col-xs-12' id ='player1'></div>");
 	$("#cleaner").html("<div class = 'col-xs-12' id = 'vs' ></div>");
-	$("#cleaning").html("<div class = 'col-xs-12' id = 'foe'></div>");
-	$("#messages").html("Click on two characters to start the game.");
+	$("#cleaning").html("<div class = 'col-xs-12' id = 'enemy'></div>");
+	$("#messages").html("Click on two warriors to start the game.");
 }
 
 function newEnemy(){
@@ -190,16 +190,16 @@ $(function() { /*According to jQuery's API, this is preferred now.*/
 		pickedNpc=false;
 	}
  
-
+$(document).on("click", "#newGame",function(){
+		replay();
+		options();
+	})
 		
 		
 
 	});
 
-	$(document).on("click", "#newGame",function(){
-		replay();
-		options();
-	})
+	
 })
 })
 
